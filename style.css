@@ -45,12 +45,15 @@ header {
     float: left;
     width: 30%;
     padding: 1em;
+    margin: 1%;
     border-radius: 1em;
 
     color: #58c0fc;
     border: 1px #58c0fc solid;
 
     text-align: justify;
+
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 700ms;
 }
 
 #main-content article:hover {
